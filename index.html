@@ -5,19 +5,24 @@
     <title>Chamakura Maneesh Reddy - Resume</title>
     <style>
       a {
-		  text-decoration: none;
-		  font-family: Verdana;
-		  font-size: 25px;
-      }
-		.center {
-			text-align:center;
+        text-decoration: none;
+        font-family: Verdana;
+      } 
+	  #centered_div { 
+		width: 60px; 
+		height: 20px; 
+		position: absolute; 
+		top: 50%; 
+		left: 50%; 
+		margin-left: -30px; 
+		margin-top: -10px;
 		}
     </style>
   </head>
-  <body>
-	  <div class="center" width="100%"><a href='maneesh_resume.pdf'>Download Pdf</a></div>
-	  <object data='maneesh_resume.pdf' width="100%" height ="1200px">
-		  <img src = "maneesh_resume.png" alt="resume image"/>
-	  </object>
+  <body>	
+    <object data='maneesh_resume.pdf' width="100%" height ="1200px">
+		<img src = "maneesh_resume.png" alt="resume image"/>
+    </object>
+	<div id="centered_div"> Centered </div>
   </body>
 </html>
